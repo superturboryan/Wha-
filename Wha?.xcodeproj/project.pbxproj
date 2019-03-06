@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		942212FD222F7F3000BE066E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942212FC222F7F3000BE066E /* AppDelegate.swift */; };
-		942212FF222F7F3000BE066E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942212FE222F7F3000BE066E /* ViewController.swift */; };
+		942212FF222F7F3000BE066E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942212FE222F7F3000BE066E /* WelcomeViewController.swift */; };
 		94221302222F7F3000BE066E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94221300222F7F3000BE066E /* Main.storyboard */; };
 		94221304222F7F3100BE066E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94221303222F7F3100BE066E /* Assets.xcassets */; };
 		94221307222F7F3100BE066E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94221305222F7F3100BE066E /* LaunchScreen.storyboard */; };
+		94221311222F81B900BE066E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422130F222F81B900BE066E /* ScannerViewController.swift */; };
+		94221312222F81B900BE066E /* ScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94221310222F81B900BE066E /* ScannerViewController.xib */; };
+		94221314222F8EAD00BE066E /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 94221313222F8EAC00BE066E /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		942212F9222F7F3000BE066E /* Wha?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wha?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942212FC222F7F3000BE066E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		942212FE222F7F3000BE066E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		942212FE222F7F3000BE066E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		94221301222F7F3000BE066E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94221303222F7F3100BE066E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94221306222F7F3100BE066E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94221308222F7F3100BE066E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9422130F222F81B900BE066E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		94221310222F81B900BE066E /* ScannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScannerViewController.xib; sourceTree = "<group>"; };
+		94221313222F8EAC00BE066E /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				942212FC222F7F3000BE066E /* AppDelegate.swift */,
-				942212FE222F7F3000BE066E /* ViewController.swift */,
+				942212FE222F7F3000BE066E /* WelcomeViewController.swift */,
+				9422130F222F81B900BE066E /* ScannerViewController.swift */,
 				94221300222F7F3000BE066E /* Main.storyboard */,
 				94221303222F7F3100BE066E /* Assets.xcassets */,
 				94221305222F7F3100BE066E /* LaunchScreen.storyboard */,
 				94221308222F7F3100BE066E /* Info.plist */,
+				94221310222F81B900BE066E /* ScannerViewController.xib */,
+				94221313222F8EAC00BE066E /* Inceptionv3.mlmodel */,
 			);
 			path = "Wha?";
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				94221307222F7F3100BE066E /* LaunchScreen.storyboard in Resources */,
 				94221304222F7F3100BE066E /* Assets.xcassets in Resources */,
 				94221302222F7F3000BE066E /* Main.storyboard in Resources */,
+				94221312222F81B900BE066E /* ScannerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942212FF222F7F3000BE066E /* ViewController.swift in Sources */,
+				942212FF222F7F3000BE066E /* WelcomeViewController.swift in Sources */,
+				94221314222F8EAD00BE066E /* Inceptionv3.mlmodel in Sources */,
+				94221311222F81B900BE066E /* ScannerViewController.swift in Sources */,
 				942212FD222F7F3000BE066E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
